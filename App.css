@@ -1,0 +1,45 @@
+
+.right-side{
+  top: 65%;
+  display:flex;
+  flex-direction: column;
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  right: 490px;
+  border-radius: 3px;
+  z-index: 1;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 12px 2px black;
+  background: transparent;
+
+  &.right {
+    right: 80%;
+    align-items:flex-end;
+    &:hover{
+      right:85%;
+    }
+  }
+
+  &.left {
+    right: 80%;
+    align-items:flex-start;
+    &:hover{
+      right:85%;
+    }
+  }
+
+  .text {
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+}
+
+.inner-container {
+  margin-top: 82px;
+  font-size: 20px;
+  font-weight: 1000;
+  color: white;
+}
