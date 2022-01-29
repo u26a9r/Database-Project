@@ -24,7 +24,7 @@ Front and Back End Developing
 11- Finally all working on th frontend is being showed on the database server
 
 
-<img src="img1.PNG" width:100px>
+<img src="img1.PNG" width:100px height:1000px>
 
-<img src="img3.PNG" width:100px>
+<img src="img3.PNG" width:100px height:1000px>
 
